@@ -1,3 +1,17 @@
+The API scrapes the table [here](https://www.dandwiki.com/wiki/Wild_Magic_Surge_Table,_Variant_(5e_Variant_Rule)) and stores the data in memory to serve back in JSON.
+
+API example:
+
+Request:
+```
+GET /roll/<int:d20>/<int:d100>
+```
+
+Response:
+```
+{'affect': 'This is the affect response'}
+```
+
 ## Installation
 
 Requirements
