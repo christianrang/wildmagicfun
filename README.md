@@ -12,6 +12,10 @@ Response:
 {'affect': 'This is the affect response'}
 ```
 
+## Quick App Demo
+
+![App Demo](docs/demo.gif)
+
 ## Installation
 
 Requirements
