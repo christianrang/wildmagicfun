@@ -24,6 +24,8 @@ Requirements
 ```
 git submodule update --init
 docker-compose build
-docker-compose up
+docker-compose up -d
 ```
 3. open a webbrowser and navigate to [http://localhost](http://localhost)
+
+To stop the docker services run `docker-compose down`.
