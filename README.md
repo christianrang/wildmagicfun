@@ -12,3 +12,4 @@ git submodule update --init
 docker-compose build
 docker-compose up
 ```
+3. open a webbrowser and navigate to [http://localhost](http://localhost)
