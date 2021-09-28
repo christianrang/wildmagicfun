@@ -1,0 +1,3 @@
+[submodule "wild_magic-frontend"]
+    path = wild_magic-frontend
+    url = https://github.com/misclikd/wildmagicfun-frontend.git
