@@ -3,6 +3,7 @@
 Requirements
 
 - Docker
+- Git
 
 1. clone the repository
 2. run the following
