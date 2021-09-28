@@ -22,6 +22,7 @@ def show_affect(d20, d100):
     data = WildMagicAffect(d20, d100).search().info
     return json.dumps({'affect': data})
 
+
 class WildMagicAffect():
 
     def __init__(self, d20: int, d100: int):
