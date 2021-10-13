@@ -3,7 +3,7 @@ from dnd_table_scrape import match_d20_header
 
 class TestMatchD20Header(unittest.TestCase):
 
-    def TestAllPossibleInts(self):
+    def test_all_possible_ints(self):
         answer = ""
         for i in range(1, 20):
             if i <= 3:
